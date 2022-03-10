@@ -1,0 +1,57 @@
+h1
+/* ajouter une virgule 
+entre chaques attributs si on veut styliser les 2 en même temps*/
+{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+}
+
+.introduction
+{
+    color: brown;
+    font-size: 2.6em;
+    font-style: italic;
+}
+
+.salut
+{
+    color: rgb(255, 187, 0);
+    font-size: 59px;
+    font-style: oblique;
+}
+
+.p2
+/*mettre le texte en gras*/
+{
+    font-weight: bold;
+    text-decoration: blink;
+/*pour les décos de texte on peut mettre 
+underline  : souligné ;
+line-through  : barré ;
+overline  : ligne au-dessus ;
+none  : normal (par défaut). */
+}
+
+/*les alignements
+left  : le texte sera aligné à gauche (c'est le réglage par défaut) ;
+center  : le texte sera centré ;
+right  : le texte sera aligné à droite ;
+justify  : le texte sera « justifié ».
+(!) l'alignement ne fonctionne que sur des balises de type block */
+.p3
+{
+    text-align: justify;
+}
+
+/*les flottants*/
+.flotant
+{
+    float: left;
+}
+
+.dessous
+/*permet que le texte s'aligne en 
+dessous mais il faut bien caluler la taille du texte!*/
+{
+    clear: both;
+}
