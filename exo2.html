@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exo2.css"/>
+</head>
+<body>
+    <main>
+        <section class="titre">
+            <h1>freeCodeCamp Survey Form</h1>
+            <p>Thankyou for taking the time to help us improve the platform</p>
+        </section>
+        
+        <form>
+            <label> Name
+                    <input type="text" name="name" placeholder="enter your name">
+            </label>
+
+            <label> Email 
+                <input type="email" placeholder="enter your Email">
+            </label>
+
+            <label for="">Age (optional)</label>
+            <input type="number" pattern="[0-9]{2}">
+
+            <label>Which option best describe your current role</label>
+            <select name="role"> 
+                <option value="France" selected="selected">select current role</option>
+                <option value="student">student</option>
+                <option value="full time job">full time job</option>
+                <option value="full time learner">full time learner</option>
+                <option value="prefer not to stay">prefer not to stay</option> 
+                <option value="other">other</option>
+            </select>
+
+            <fieldset>
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="reco">definitely</label>
+                <input type="radio" name="reco" id="reco">
+                <label for="reco">maybe</label>
+                <input type="radio" name="reco" id="reco">
+                <label for="reco">not sure</label>
+                <input type="radio" name="reco" id="reco">
+            </fieldset>
+
+            <label>What is your favorite feature of freeCodeCamp?</label>
+            <select name="feature"> 
+                <option value="feature" selected="selected">select an option</option>
+                <option value="challenge">challenge</option>
+                <option value="project">project</option>
+                <option value="community">community</option>
+                <option value="open source">open source</option>
+            </select> 
+
+
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <p>
+                <label for="frontend">front-end project</label>
+                <input type="checkbox" name="frontend" id="frontend" />
+                <label for="backend">back-end project</label>
+                <input type="checkbox" name="backend" id="backend" />
+                <label for="data">data visualization</label>
+                <input type="checkbox" name="data" id="data" />
+                <label for="challenges">challenges</label>
+                <input type="checkbox" name="challenge" id="challenge" />
+                <label for="open">open source community</label>
+                <input type="checkbox" name="open" id="open" />
+                <label for="gitter">gitter help room</label>
+                <input type="checkbox" name="gitter" id="gitter" />
+                <label for="videos">videos</label>
+                <input type="checkbox" name="videos" id="videos" />
+                <label for="city">city meetups</label>
+                <input type="checkbox" name="city" id="city" />
+                <label for="wiki">wiki</label>
+                <input type="checkbox" name="wiki" id="wiki" />
+                <label for="forum">forum</label>
+                <input type="checkbox" name="forum" id="forum" />
+                <label for="additional">additional courses</label>
+                <input type="checkbox" name="additional" id="additional" />
+            </p>
+
+        <label>Any comments or suggestions ?</label>
+        <input type="text" placeholder="Enter your comments here">
+        </form>
+
+        <input type="submit">
+    </main>
+</body>
+</html>
