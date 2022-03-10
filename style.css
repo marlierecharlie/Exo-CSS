@@ -41,6 +41,8 @@ justify  : le texte sera « justifié ».
 .p3
 {
     text-align: justify;
+    background-color: aquamarine;
+    background-color: rgba(1, 2, 3, 0.3);
 }
 
 /*les flottants*/
@@ -54,4 +56,10 @@ justify  : le texte sera « justifié ».
 dessous mais il faut bien caluler la taille du texte!*/
 {
     clear: both;
+}
+
+body
+{
+    background-image: url("Garothi_phase_1.png");
+    background-attachment: fixed;
 }
