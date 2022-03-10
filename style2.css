@@ -1,0 +1,63 @@
+.list span
+{
+    font-weight: bold;
+}
+
+body
+{
+    background-color: rgb(139, 132, 132, 0.3);
+}
+main
+{
+   text-align: left;
+   line-height: 130%;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 35% ;
+   width: 35%;
+
+}
+
+.hommes
+{
+    background-color: white;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.hommes figcaption
+{
+    padding: 2%;
+}
+
+.titre
+{
+    text-align: center;
+}
+
+h1
+{
+    font-weight: bold;
+    font-family: ;
+    font-size: 200%;
+
+}
+
+.citation
+{
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(16, 16, 17);
+}
+
+.citationpadding
+{
+    padding-top: 5%;
+}
+
+.theend
+{
+    font-size: 120%;
+    
+}
+
+
