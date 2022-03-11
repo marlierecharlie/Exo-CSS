@@ -15,40 +15,38 @@
 
 <body>
 
-    <section>
+    <header>
         <h1>freeCodeCamp Survey Form</h1>
         <p>Thank you for talking the time to help us improve the platform</p>
-    </section>
+    </header>
 
-
+    <main>
     <form>
-        <label for="text" class="question">Name</label>
-        <input type="text" name="name" id="name" placeholder="Enter your name" required autofocus/>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required autofocus class="width"/>
 
         <label for="email" class="question">Email</label>
         <input type="email" name="email" id="email" placeholder="Enter your Email" required />
 
-        <label for="Age" class="question">Age <span class="optional">Optional</span></label>
-        <input type="number" name="number" id="number" placeholder="Age" required />
+        <label for="age" class="question">Age <span class="optional">Optional</span></label>
+        <input type="number" name="age" id="age" placeholder="Age" required />
 
-        <label for="recommend" class="question">Would you recommend freeCodeCamp to a friend?</label>
-        <input type="radio" name="recommend" id="definitely" required /> : <label for="definitely">Definitely</label>
-        <input type="radio" name="recommend" id="maybe" required /> : <label for="definitely">Maybe</label>
-        <input type="radio" name="recommend" id="notsure" required /> : <label for="definitely">Not sure</label>
-        <input type="radio" name="recommend" id="no" required /> : <label for="definitely">No</label>
+        <!--bouton radio-->
+        <label>Would you recommend freeCodeCamp to a friend?<abbr>recommend</abbr></label>
+            <input type="radio" name="recommend" id="definitely" required /> : <label for="definitely">Definitely</label>
+            <input type="radio" name="recommend" id="maybe" required /> : <label for="definitely">Maybe</label>
+            <input type="radio" name="recommend" id="notsure" required /> : <label for="definitely">Not sure</label>
+            <input type="radio" name="recommend" id="no" required /> : <label for="definitely">No</label>
 
         
-        <label for="option" class="question">What is your favorite feature of freeCodeCamp?</label>
+        <label for="option">What is your favorite feature of freeCodeCamp?</label>
         <select name="option" id="option">
-
             <optgroup label="Oui/Non">
                 <option value="oui">Oui</option>
                 <option value="non">Non</option>
-                <option value="ouioui">OuiOui</option>
-                <option value="nonnon">NonNon</option>
         </select>
 
-        <label class="question">What would you like to see improved ?<span class="optional">(Check all that apply)</span></label>
+        <label>What would you like to see improved ?<span class="optional">(Check all that apply)</span></label>
             
                 <input type="checkbox" name="checkbox" id="cb1"> : <label for="cb1">Front-end Projects</label>
                 <input type="checkbox" name="checkbox" id="cb2"> : <label for="cb2">Back-end Projects</label>
@@ -62,11 +60,14 @@
                 <input type="checkbox" name="checkbox" id="cb10"> : <label for="cb10">Forum</label>
                 <input type="checkbox" name="checkbox" id="cb11"> : <label for="cb11">Additional Courses</label>
 
-        <label for="comments" class="question">Any comments or suggestions?</label>
+        <label for="comments">Any comments or suggestions?</label>
         <!--utiliser textaera pour le champ de text-->
         <textarea name="comments" id="comments" placeholder="Enter your comment here..." rows="5" cols="57"></textarea>
 
     </form>
+
+    <input type="submit"></input>
+    </main>
 
 </body>
 

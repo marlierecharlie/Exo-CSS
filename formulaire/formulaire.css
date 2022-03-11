@@ -1,6 +1,6 @@
-section
+header
 {
-    color: white;
+    text-align: center;
 }
 
 h1
@@ -8,12 +8,40 @@ h1
     font-weight: bold;
 }
 
-body
+p
 {
-    background-image: linear-gradient( rgba(29, 7, 68, 0.8), rgba(29, 7, 68, 0.8)), url('background_pic.png');
+    font-style: italic;
 }
 
-form
+body
+{
+    background-image: linear-gradient( rgba(26, 47, 138, 0.8), rgba(26, 47, 138, 0.8)), url('background_pic.png');
+    color: white;
+}
+
+main
 {
     background-image: linear-gradient( rgba(15, 15, 58, 0.8), rgba(15, 15, 58, 0.8));
+    /*mettre le texte à la ligne*/
+    white-space: pre-line;
+    margin-left: 35%;
+    margin-right: 30%;
+    padding: 5%;
+    padding-top: 2%;
+    border-radius: 3%;
+}
+
+input[type=submit]
+{
+    color: white;
+    background-color: rgb(79, 187, 79);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 42%;
+    padding-right: 40%;
+}
+
+input[placeholder]
+{
+    width: 450px;
 }
