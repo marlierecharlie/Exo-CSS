@@ -55,3 +55,30 @@
 {
     grid-column: 1/3;
 }
+
+header
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.liens
+{
+    grid-column: 3/4;
+}
+
+
+body
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+nav
+{
+    background-color: rgb(94, 212, 155);
+    border: 2px solid rgb(79,185,227);
+    padding: 5px;
+    grid-column: 1/2;
+}
