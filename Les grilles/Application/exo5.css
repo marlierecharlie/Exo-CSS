@@ -4,7 +4,7 @@ main
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 200px;
     gap: 20px;
-    grid-column: 2/4;
+    grid-column: 2/13;
 }
 
 main div
@@ -60,21 +60,25 @@ main div
 header
 {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-column: 1/4;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1/13;
 }
 
 
-.liens
+ul
 {
-    grid-column: 3/4;
+    grid-column: 12/13;
 }
 
+header img
+{
+    grid-column: 1/3;
+}
 
 body
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     gap: 20px;
 }
 
@@ -85,4 +89,6 @@ aside
     padding: 5px;
     grid-column: 1/2;
     max-height: 300px;
+    max-width: 250px;
 }
+
