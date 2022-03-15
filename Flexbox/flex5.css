@@ -1,0 +1,29 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+}
+
+main
+{
+    display: flex;
+}
+
+.bas
+/*aligne self est un élément de flexbox qui s'utilise sur l'item lui même, inutiel de mettre un display*/
+{
+    align-self: flex-end;
+}
+nav img
+{
+    height: 100px;
+}
+
+img
+{
+    height: 300px;
+}
