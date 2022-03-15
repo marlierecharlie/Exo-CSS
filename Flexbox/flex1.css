@@ -21,8 +21,25 @@ li
     padding: 10px;
 }
 
-main img
+
+main
 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
