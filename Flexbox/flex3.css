@@ -1,0 +1,52 @@
+nav img
+{
+    height: 20px;
+}
+
+main img
+{
+    height: 50px;
+    width: 40px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li
+{
+    display: inline;
+    padding: 10px;
+}
+
+nav li ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    margin: 50px;
+}
+
+.deux
+{
+    background-color: aquamarine;
+    border: 2px solid rgb(39, 20, 211);
+    margin: 50px;
+
+}
+
+main
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
