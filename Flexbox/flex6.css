@@ -1,4 +1,67 @@
+/*mettre une height au html et au bodt permet d'agir sur les flexbox*/
 html
 {
-    
+    height: 100%;
 }
+
+body
+{
+    height: 100%;
+
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.un
+{
+    display: flex;
+    justify-content: center;
+}
+
+.deux
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* je redimentionne rapidement les images pour + de confort*/
+img
+{
+    height: 100px;
+}
+
+/*de là
+nav img
+{
+    height: 20px;
+}
+
+main img
+{
+    height: 50px;
+    width: 40px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li
+{
+    display: inline;
+    padding: 10px;
+}
+
+nav li ul
+{
+    display: flex;
+    flex-direction: row;
+}
+/*à là, c'est la nav bar*/
