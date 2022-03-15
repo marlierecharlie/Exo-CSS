@@ -1,0 +1,37 @@
+img
+{
+    height: 100px;
+    width: 150px;
+}
+
+ul
+/*pour enlever les points devant les images*/
+{
+    display: flex;
+    flex-direction: row;
+}
+
+li
+{
+    display: inline;
+    margin: 10px;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+body
+{
+    height: 100%;
+    margin: 400px;
+}
+
+article
+{
+    width: 300px;
+}
