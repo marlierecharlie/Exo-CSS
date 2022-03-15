@@ -1,37 +1,42 @@
-img
+html
 {
-    height: 100px;
-    width: 150px;
+    height: 100%;
 }
 
-ul
-/*pour enlever les points devant les images*/
+body
 {
     display: flex;
-    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
 }
 
-li
+main
 {
-    display: inline;
-    margin: 10px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 section
 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-
 }
 
-body
+ul
 {
-    height: 100%;
-    margin: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+li
+{
+    list-style: none;
 }
 
-article
+img
 {
-    width: 300px;
+    width: 100px;
 }
+
