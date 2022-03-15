@@ -1,0 +1,28 @@
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img
+{
+    width: 10px;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+li
+{
+    display: inline;
+    padding: 10px;
+}
+
+main img
+{
+    display: flex;
+    justify-content: center;
+}
